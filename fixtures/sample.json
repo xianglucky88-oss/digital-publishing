@@ -1,0 +1,34 @@
+[
+  {
+    "source": "publisher-api",
+    "observed_at": "2026-11-01T06:00:00Z",
+    "payload": {
+      "isbn": "978-1",
+      "title": "Data Pipelines",
+      "publisher": "Example Press",
+      "edition": "2",
+      "language": "en",
+      "availability": "active"
+    }
+  },
+  {
+    "source": "sftp-feed",
+    "observed_at": "2026-11-01T06:05:00Z",
+    "payload": {
+      "isbn": "978-2",
+      "title": "采集工程",
+      "publisher": "Example Press",
+      "edition": "1",
+      "language": "zh",
+      "availability": "active"
+    }
+  },
+  {
+    "source": "publisher-web",
+    "observed_at": "2026-11-01T06:10:00Z",
+    "payload": {
+      "isbn": "978-1",
+      "edition": "2"
+    }
+  }
+]

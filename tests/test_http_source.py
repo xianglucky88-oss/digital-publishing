@@ -24,7 +24,7 @@ def test_http_source_reads_records_and_lands_raw_response(tmp_path):
     thread.start()
     try:
         source = HttpJsonSource(f"http://127.0.0.1:{server.server_port}/records", raw_dir=str(tmp_path / "raw"))
-        records = source.read()
+        records = list(source.read())
         assert len(records) == 1
         assert records[0]["payload"]["id"] == "1"
         assert list((tmp_path / "raw").glob("*.json"))

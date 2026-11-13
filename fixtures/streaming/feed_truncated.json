@@ -1,0 +1,16 @@
+{
+  "records": [
+    {"source": "publisher-api", "observed_at": "2026-11-01T06:01:00Z", "payload": {"isbn": "978-7-001", "title": "Data Pipelines 第1版", "publisher": "Example Press", "edition": "1", "language": "zh", "availability": "active"}},
+    {"source": "publisher-api", "observed_at": "2026-11-01T06:02:00Z", "payload": {"isbn": "978-7-002", "title": "采集工程😀 \"引号\" \\反斜杠\\ 换行\n制表\t", "publisher": "Example Press", "edition": "1", "language": "zh", "availability": "active"}},
+    {"source": "publisher-api", "observed_at": "2026-11-01T06:03:00Z", "payload": {"isbn": "978-7-003", "title": "Data Pipelines 第3版", "publisher": "Example Press", "edition": "1", "language": "zh", "availability": "active", "pages": 320, "weight_kg": 0.85, "price": 125.0}},
+    {"source": "publisher-api", "observed_at": "2026-11-01T06:04:00Z", "payload": {"isbn": "978-7-004", "title": "Data Pipelines 第4版", "publisher": "Example Press", "edition": "1", "language": "zh", "availability": "active"}},
+    {"source": "publisher-api", "observed_at": "2026-11-01T06:05:00Z", "payload": {"isbn": "978-7-005", "title": "Data Pipelines 第5版", "publisher": "Example Press", "edition": "1", "language": "zh", "availability": "active"}},
+    {"source": "publisher-api", "observed_at": "2026-11-01T06:06:00Z", "payload": {"isbn": "978-7-006", "title": "Data Pipelines 第6版", "publisher": "Example Press", "edition": "1", "language": "zh", "availability": "active"}},
+    {"source": "publisher-api", "observed_at": "2026-11-01T06:07:00Z", "payload": {"isbn": "978-7-007", "title": "Data Pipelines 第7版", "publisher": "Example Press", "edition": "1", "language": "zh", "availability": "active"}},
+    {"source": "publisher-api", "observed_at": "2026-11-01T06:08:00Z", "payload": {"isbn": "978-7-008", "title": "Data Pipelines 第8版", "publisher": "Example Press", "edition": "1", "language": "zh", "availability": "active"}},
+    {"source": "publisher-api", "observed_at": "2026-11-01T06:09:00Z", "payload": {"isbn": "978-7-009", "title": "Data Pipelines 第9版", "publisher": "Example Press", "edition": "1", "language": "zh", "availability": "active"}},
+    {"source": "publisher-api", "observed_at": "2026-11-01T06:10:00Z", "payload": {"isbn": "978-7-010", "title": "Data Pipelines 第10版", "publisher": "Example Press", "edition": "1", "language": "zh", "availability": "active"}},
+    {"source": "publisher-api", "observed_at": "2026-11-01T06:11:00Z", "payload": {"isbn": "978-7-011", "title": "Data Pipelines 第11版", "publisher": "Example Press", "edition": "1", "language": "zh", "availability": "active"}},
+    {"source": "publisher-api", "observed_at": "2026-11-01T06:12:00Z", "payload": {"isbn": "978-7-012", "title": "Data Pipelines \u7b2c12\u7248", "publisher": "Example Press", "edition": "1", "language": "zh", "availability": "active"}}
+  ],
+  "meta": {"page": 1, "note": "ok

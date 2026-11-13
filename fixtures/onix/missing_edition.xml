@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ONIXMessage release="3.0">
+  <Header>
+    <Sender>
+      <SenderName>Sparse Metadata Books</SenderName>
+    </Sender>
+    <SentDateTime>2026-11-02T08:00:00Z</SentDateTime>
+  </Header>
+  <Product>
+    <RecordReference>book-2001</RecordReference>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780000002001</IDValue>
+    </ProductIdentifier>
+    <DescriptiveDetail>
+      <ProductForm>EB</ProductForm>
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>Edition Without Number</TitleText>
+        </TitleElement>
+      </TitleDetail>
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>eng</LanguageCode>
+      </Language>
+    </DescriptiveDetail>
+    <PublishingDetail>
+      <Publisher>
+        <PublishingRole>01</PublishingRole>
+        <PublisherName>Sparse Press</PublisherName>
+      </Publisher>
+    </PublishingDetail>
+    <ProductSupply>
+      <SupplyDetail>
+        <ProductAvailability>20</ProductAvailability>
+      </SupplyDetail>
+    </ProductSupply>
+  </Product>
+  <Product>
+    <RecordReference>book-2002</RecordReference>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780000002002</IDValue>
+    </ProductIdentifier>
+    <DescriptiveDetail>
+      <ProductForm>EB</ProductForm>
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>Edition With Number</TitleText>
+        </TitleElement>
+      </TitleDetail>
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>eng</LanguageCode>
+      </Language>
+      <EditionNumber>4</EditionNumber>
+    </DescriptiveDetail>
+    <PublishingDetail>
+      <Publisher>
+        <PublishingRole>01</PublishingRole>
+        <PublisherName>Sparse Press</PublisherName>
+      </Publisher>
+    </PublishingDetail>
+    <ProductSupply>
+      <SupplyDetail>
+        <ProductAvailability>21</ProductAvailability>
+      </SupplyDetail>
+    </ProductSupply>
+  </Product>
+</ONIXMessage>

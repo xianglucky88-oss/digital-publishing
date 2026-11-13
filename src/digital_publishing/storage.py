@@ -30,7 +30,7 @@ class ObservationStore:
         """)
         self.conn.commit()
 
-    def upsert(self, observation: Observation) -> bool:
+    def upsert(self, observation: Observation, commit: bool = True) -> bool:
         before = self.conn.total_changes
         self.conn.execute("""
             INSERT INTO observations(source, record_key, observed_at, payload_json, raw_hash)
@@ -41,7 +41,8 @@ class ObservationStore:
             WHERE observations.raw_hash <> excluded.raw_hash
         """, (observation.source, observation.key, observation.observed_at,
               json.dumps(observation.payload, ensure_ascii=False, sort_keys=True), observation.raw_hash))
-        self.conn.commit()
+        if commit:
+            self.conn.commit()
         return self.conn.total_changes > before
 
     def reject(self, raw: object, error: str) -> None:

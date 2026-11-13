@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ONIXMessage release="3.0" xmlns:x="http://example.invalid/onix-extension">
+  <Header>
+    <Sender>
+      <SenderName>Example Publisher</SenderName>
+      <ContactName>Editorial Desk</ContactName>
+    </Sender>
+    <SentDateTime>2026-11-05T08:00:00Z</SentDateTime>
+    <MessageNote>Publisher-supplied update with a revised title</MessageNote>
+  </Header>
+  <Product>
+    <RecordReference>book-0001</RecordReference>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780000000001</IDValue>
+    </ProductIdentifier>
+    <DescriptiveDetail>
+      <ProductComposition>00</ProductComposition>
+      <ProductForm>EB</ProductForm>
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>Data Pipelines Deluxe</TitleText>
+        </TitleElement>
+      </TitleDetail>
+      <TitleDetail>
+        <TitleType>10</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>Data Pipelines Deluxe (Distributor Showcase Title)</TitleText>
+        </TitleElement>
+      </TitleDetail>
+      <Contributor>
+        <ContributorRole>A01</ContributorRole>
+        <PersonName>Jane Author</PersonName>
+        <PersonNameInverted>Author, Jane</PersonNameInverted>
+      </Contributor>
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>eng</LanguageCode>
+      </Language>
+      <EditionNumber>2</EditionNumber>
+      <Extent>
+        <ExtentType>00</ExtentType>
+        <ExtentValue>320</ExtentValue>
+        <ExtentUnit>03</ExtentUnit>
+      </Extent>
+      <x:PortalMeta x:origin="publisher-portal">
+        <InternalSku>PP-0001</InternalSku>
+      </x:PortalMeta>
+    </DescriptiveDetail>
+    <PublishingDetail>
+      <Publisher>
+        <PublishingRole>01</PublishingRole>
+        <PublisherName>Example Press</PublisherName>
+      </Publisher>
+    </PublishingDetail>
+    <ProductSupply>
+      <SupplyDetail>
+        <Supplier>
+          <SupplierRole>01</SupplierRole>
+          <SupplierName>Example Warehouse</SupplierName>
+        </Supplier>
+        <ProductAvailability>20</ProductAvailability>
+      </SupplyDetail>
+    </ProductSupply>
+  </Product>
+  <Product>
+    <RecordReference>book-0002</RecordReference>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780000000002</IDValue>
+    </ProductIdentifier>
+    <DescriptiveDetail>
+      <ProductComposition>00</ProductComposition>
+      <ProductForm>EB</ProductForm>
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>采集工程</TitleText>
+        </TitleElement>
+      </TitleDetail>
+      <Contributor>
+        <ContributorRole>A01</ContributorRole>
+        <PersonName>李明</PersonName>
+      </Contributor>
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>zho</LanguageCode>
+      </Language>
+      <EditionNumber>1</EditionNumber>
+    </DescriptiveDetail>
+    <PublishingDetail>
+      <Publisher>
+        <PublishingRole>01</PublishingRole>
+        <PublisherName>Example Press</PublisherName>
+      </Publisher>
+    </PublishingDetail>
+    <ProductSupply>
+      <SupplyDetail>
+        <ProductAvailability>20</ProductAvailability>
+      </SupplyDetail>
+    </ProductSupply>
+  </Product>
+</ONIXMessage>
